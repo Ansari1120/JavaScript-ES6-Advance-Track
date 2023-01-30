@@ -1,0 +1,39 @@
+closures:
+A closure is the combination of a function bundled together (enclosed)
+ with references to its surrounding state (the lexical environment). 
+ In other words, a closure 
+gives you access to an outer function's scope from an inner function
+
+function inside function as outer into inner function
+
+Lexical Scoping:
+
+JavaScript uses lexical scoping to resolve the variable names 
+when a function is 
+created inside another function. 
+It determines the function's parent scope by looking 
+at where the function was created instead of where it was invoked.
+
+Map in JavaScript :
+
+map() creates a new array from calling a function for every array element.
+
+map() calls a function once for each element in an array.
+
+map() does not execute the function for empty elements.
+
+map() does not change the original array.
+
+foreach method in JavaScript:
+
+The forEach() method calls a function for each element in an array.
+
+The forEach() method is not executed for empty elements.
+
+filter method in JavaScript:
+
+Returns the elements of an array that meet the condition specified 
+in a callback function.
+@param predicate — A function that accepts up to three arguments. 
+The filter method calls 
+the predicate function one time for each element in the array.

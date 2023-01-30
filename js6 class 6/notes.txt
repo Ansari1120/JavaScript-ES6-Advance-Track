@@ -1,0 +1,67 @@
+findindex:
+
+Returns the index of the first element in the array where
+ predicate is true, and -1 otherwise.
+
+@param predicate
+find calls predicate once for each element of the array,
+in ascending order, until it finds one where predicate 
+returns true. If such an element is found, findIndex immediately 
+returns that element index. Otherwise, findIndex returns -1.
+
+The findIndex() method executes a function for each array element.
+
+The findIndex() method returns the index (position) of the first element that passes a test.
+
+The findIndex() method returns -1 if no match is found.
+
+The findIndex() method does not execute the function for empty array elements.
+
+The findIndex() method does not change the original array.
+
+array.findIndex(function(currentValue, index, arr), thisValue)
+
+find method :
+
+find() returns the value of the first element in an array that passes a test (provided by a function):
+
+The find() method executes a function for each array element.
+
+The find() method returns undefined if no elements are found.
+
+The find() method does not execute the function for empty elements.
+
+The find() method does not change the original array.
+
+some method : 
+
+The some() method checks if any array elements pass a test (provided as a callback function).
+
+The some() method executes the callback function once for each array element.
+
+The some() method returns true (and stops) if the function returns true for one of the array elements.
+
+The some() method returns false if the function returns false for all of the array elements.
+
+The some() method does not execute the function for empty array elements.
+
+
+reducer method :
+
+The reduce() method executes a reducer function for array element.
+
+The reduce() method returns a single value: the function's accumulated result.
+
+The reduce() method does not execute the function for empty array elements.
+
+The reduce() method does not change the original array.
+
+flat method : 
+
+concatinate all sub array into a single array
+Returns a new array with all sub-array elements concatenated into 
+it recursively up to the specified depth.
+
+max method :
+
+Returns the larger of a set of supplied numeric expressions.
