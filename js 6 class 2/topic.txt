@@ -1,0 +1,84 @@
+ European Computer Manufacturers Association = ecma
+// var , let const - > topic
+
+scopes : local(blocked) and global
+
+scopes could be in function , if else , switch case 
+
+{  //scope
+    
+}
+
+let and const introduced in ecma script 6.
+
+
+var :
+redeclareable(yes)
+reassignable(yes)
+global scope
+hoist (yes)
+
+let :
+ redeclareable(no)  
+reassignable(yes)
+block scope
+hoist no
+
+const:
+ redeclareable(no)
+ reassignable(no)
+block scope
+hoist no
+
+var , function  = hoisting
+
+first of all js file read 
+space allocation done ,
+write until the file is read.
+then other files run after it ie. html csss file 
+
+hoisting : 
+
+Hoisting is JavaScript's default behavior
+ of moving all declarations to the top 
+ of the current scope (to the 
+ top of the current script or the 
+ current function).
+
+template literals :
+
+Template Literals use back-ticks (``) 
+rather than the quotes ("") to
+ define a string:
+let text = `Hello World!`;
+
+
+Interpolation
+Template literals provide an easy way to interpolate variables and expressions into strings.
+
+The method is called string interpolation.
+
+The syntax is:
+
+${...}
+
+//circuits in js
+
+|| , && , != conditions used as circuits in js
+
+
+objects and methods 
+
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  id: 5566,
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+
+
+JavaScript methods are actions that can be performed on objects.
+
+A JavaScript method is a property containing a function definition.

@@ -1,0 +1,45 @@
+
+
+
+var arr = [
+    {
+       key -> id:341, <- value
+        details : "tsca",
+    }];
+    KEY AND VALUE TOGETHER CALLED PROPERTY
+
+    {} -> object type
+    [] -> array type
+
+
+array functions
+map method:
+map -> takes two parameters three basically
+it returns array value with its associated index
+first paramter fetch value
+second paramter fetch value's index
+do modification in new array is the objective
+of the method map
+
+difference between foreach and map 
+look at the picture in doc drive
+
+higher order function:
+
+Basically, a function which takes another 
+function as an argument or returns a function
+is known as a higher order function. Let's
+dive a bit to see both types of 
+implementation, that is: Passing a function 
+as an argument to another function. Returning
+a function from another function.
+
+
+//arrow functions 
+shorts the long code 
+weightless no space gained
+
+an arrow function expression is a compact 
+alternative to a traditional function 
+expression, with some semantic differences 
+and deliberate limitations in usage

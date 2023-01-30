@@ -1,0 +1,4 @@
+take two inputs , brand input , model input
+
+advance javascript 
+var let const

@@ -1,0 +1,62 @@
+spread operator 
+What is spread operator in JavaScript?
+The JavaScript spread operator ( ... ) allows us to quickly copy all or part of an existing array or object into another array or object.
+
+
+we want to copy existing properties into new obj 
+which already contains some of its previous properties
+
+
+The spread operator is used to create a 
+copy of existing objects with new or 
+updated values or make a copy of an 
+object with more properties. Instead 
+of pass each element in the array as 
+an argument in the function call, we 
+can pass the array element as an 
+individual
+ argument using the spread operator.
+
+ we can perform spread operator method at 
+object or array
+
+
+hoisting
+
+declaration of a var const object goes on top f the document nor 
+initialization
+
+objects contains references which were based
+on addresses like 080000X3CD
+const obj = {
+    name : 'abc'
+}
+
+var wont work as hoisting says undefined
+when accessing variable's value it pops error
+
+obj.id = 1; is able to be accessed into obj object
+cuz we are changing earlier defined reference not
+defining it as a new one.
+
+
+REST operator
+
+HANDLE MULTIPLE PARAMETERS 
+
+when we use ... as a paramter we called it
+rest operator
+
+make parameters return as rest
+
+
+The rest parameter syntax allows a 
+function to accept an indefinite
+number of arguments as an array
+
+Destructuring:
+
+The destructuring assignment syntax is a 
+JavaScript expression that makes 
+it possible to unpack values from arrays, or 
+properties from objects, into distinct variables.
