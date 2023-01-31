@@ -1,0 +1,14 @@
+liberary vs frameworks
+async/await
+nullish
+optional chaining
+
+
+npx create-react-app example
+
+npm start -> to run react app
+
+npm i 
+
+jsx  = javascript xml file contains javascript code and html 
+into single file
