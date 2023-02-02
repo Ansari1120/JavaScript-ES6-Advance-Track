@@ -187,38 +187,12 @@ function getBrand() {
 }
 var obj;
 var b = document.getElementById("body");
-// let labels = Object.keys(obj);
 let a = document.getElementById("header");
-// for (let i = 0; i < labels.length; i++) {
-//   a.innerHTML += `<td>${labels[i]}</td>`;
-// }
-// document.getElementById("result").innerHTML = obj.forEach(searchMob());
 function searchMob() {
   let obj = mobiles.find(
     (x) => x.brand == brandSelect.value && x.name == modelSelect.value
   );
-  // return obj.forEach((x) => {
-  // b.innerHTML += `<tr>
-  // <td>
-  // ${x.name}
-  // </td>
-  // <td>
-  // ${x.ram}
-  // </td>
-  // <td>
-  // ${x.rom}
-  // </td>
-  // <td>
-  // ${x.camera}
-  // </td>
-  // <td>
-  // ${x.price}
-  // </td>
-  // <td>
-  // ${x.brand}
-  // </td>
-  // </tr> `;
-  // });
+
   console.log(obj.name);
   a.innerHTML += `<td>${Object.keys(obj)}</td>`;
   b.innerHTML += `<tr>
